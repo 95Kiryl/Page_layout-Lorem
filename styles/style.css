@@ -603,6 +603,8 @@ input[type='range']::-moz-range-thumb {
   border-radius: 3px;
   position: absolute;
   z-index: 1;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(62, 156, 220, 1) rgba(61, 64, 80, 1);
 }
 
 .select__list-items__visible::-webkit-scrollbar {
